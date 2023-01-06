@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Tables</title>
+</head>
+<body>
+	<h2>Welcome to Tables Page!</h2>
+	<!-- div is a generic container of elements. However, we can add an identifier for our elemnts
+
+		- id is a unique identifier for our elements.
+
+			- are divs with ids that appropriately identifies or is definitive of its purpose..
+	-->
+	<div id="NavDiv">
+		<a href="index.html">Home Page</a>
+		<a href="form.html">Forms Page</a>
+	</div>
+	<h3 align="center">HTML Entities</h3>
+	<p>
+		<em>Thre are reserved characters in HTML<em/>
+	</p>
+	<p>
+		HTML entities start with ampersand(&) and ends with semicolon (;)
+	</p>
+	<h4>Common HTML Entities</h4>
+	<!--
+		Table tag allows us to create a table wherein we can display data/information in a tabular form; in row and columns.
+	-->
+	<table border="1">
+		<!-- 
+		tr means table row, it allows us to create a row in an HTML Table
+
+		thead is used to group header/heading content in an HTML Table
+		-->
+		<thead>
+			<tr>
+				<!-- th means table header, it allows us to add cells which will be our headers. Text in this element is bolded. -->
+				<th colspan="2">Entity</th>
+				<th colspan="2">Description</th>
+			</tr>
+		</thead>
+		<tbody>
+		<!-- tbody tag is used to group body content in an HTML Table. This is where the bulk of td (table data) will be put -->
+		</tbody>
+		<tr>
+			<td>&lt;</td>
+			<td>lt</td>
+			<td>Less than</td>
+		</tr>
+		<tr>
+			<td>&gt;</td>
+			<td>gt</td>
+			<td>Greater than</td>
+		</tr>
+		<tr>
+			<td>&#8369</td>
+			<td>#8369</td>
+			<td>Peso Sign</td>
+		</tr>
+		<tr>
+			<td>&amp</td>
+			<td>amp</td>
+			<td>Ampersand</td>
+		</tr>
+		<tr>
+			<td>&quot;</td>
+			<td>quot</td>
+			<td>Double Quotation Mark</td>
+		</tr>
+
+		<tfoot>
+			<!-- tfoot is used to group the footer content in an HTML Table. It allows is to add misc contentat the end of the table.-->
+			<tr>
+				<th colspan="3">List of Common HTML Entities</th>
+			</tr>
+		</tfoot>
+
+	</table>
+	<!--End of Table -->
+	<hr />
+
+	<!-- 
+		Mini-activity
+		Create a product list and display in table
+
+		Tha table should be at least 4 columns
+			-product code
+			-product name
+			-description
+			-price
+		Add at least 10 products
+	-->
+	<h4>Mini Activity - Product List</h4>
+	<table border="1">
+		<thead>
+			<tr>
+				<th colspan="1">Product List</th>
+				<th colspan="1">Product Name</th>
+				<th colspan="1">Description</th>
+				<th colspan="1">Price</th>
+			</tr>
+		</thead>
+
+		<tbody>
+		</tbody>
+
+		<tr>
+			<td>001</td>
+			<td>Toothpaste</td>
+			<td>To go with your toothbrush.</td>
+			<td>7.00</td>
+		</tr>
+		<tr>
+			<td>002</td>
+			<td>Mouthwash</td>
+			<td>To get rid of stanky breath.</td>
+			<td>25.00</td>
+		</tr>
+		<tr>
+			<td>003</td>
+			<td>Hair Wax</td>
+			<td>To style your hair.</td>
+			<td>12.00</td>
+		</tr>
+		<tr>
+			<td>004</td>
+			<td>Cologne</td>
+			<td>To get rid of B.O.</td>
+			<td>20.00</td>
+		</tr>
+		<tr>
+			<td>005</td>
+			<td>Dental Floss</td>
+			<td>To get rid of the bits stuck between your teeth.</td>
+			<td>21.00</td>
+		</tr>
+		<tr>
+			<td>006</td>
+			<td>Soap</td>
+			<td>To wash your body.</td>
+			<td>17.00</td>
+		</tr>
+		<tr>
+			<td>007</td>
+			<td>Body Lotion</td>
+			<td>To get that moisture.</td>
+			<td>25.00</td>
+		</tr>
+		<tr>
+			<td>008</td>
+			<td>Shampoo</td>
+			<td>It shams your poo.</td>
+			<td>9.00</td>
+		</tr>
+		<tr>
+			<td>009</td>
+			<td>Conditioner</td>
+			<td>To get that smooth hair.</td>
+			<td>50.00</td>
+		</tr>
+		<tr>
+			<td>010</td>
+			<td>Sunscreen</td>
+			<td>To screen you from the Sun.</td>
+			<td>29.99</td>
+		</tr>
+	</table>
+</body>
+</html>	
